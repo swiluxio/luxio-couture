@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxio Couture</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background-color: #000;
+            color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #C2A86B;
+        }
+        header h1 {
+            margin: 0;
+            color: #C2A86B;
+            letter-spacing: 2px;
+            font-size: 28px;
+        }
+
+        /* Hero Banner */
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #C2A86B;
+        }
+
+        /* Shop Grid */
+        .shop-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .shop-section h2 {
+            color: #C2A86B;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            padding: 0 20px;
+        }
+
+        .product-card {
+            background-color: #111;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            transition: 0.3s;
+        }
+        .product-card:hover {
+            border-color: #C2A86B;
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-name {
+            margin: 15px 0 5px;
+            font-size: 18px;
+        }
+
+        .price {
+            color: #C2A86B;
+            margin-bottom: 15px;
+        }
+
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            display: inline-block;
+            padding: 10px 16px;
+            background-color: #C2A86B;
+            color: #000;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .whatsapp-btn:hover {
+            background-color: #b19557;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #C2A86B;
+            color: #C2A86B;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LUXIO COUTURE</h1>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Luxury. Reinvented.</h2>
+        <p>Premium Dupes • Sneakers • Bags • Colognes • Watches</p>
+    </section>
+
+    <!-- SHOP SECTION -->
+    <section class="shop-section">
+        <h2>Shop Collection</h2>
+
+        <div class="grid">
+
+            <!-- PRODUCT 1 -->
+            <div class="product-card">
+                <img src="your-image-1.jpg" alt="Product Image">
+                <div class="product-name">LV Neverfull Dupe</div>
+                <div class="price">R850</div>
+                <a class="whatsapp-btn" 
+                href="https://wa.me/27XXXXXXXXX?text=Hi%20I'm%20interested%20in%20the%20LV%20Neverfull%20Dupe" 
+                target="_blank">Order on WhatsApp</a>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="product-card">
+                <img src="your-image-2.jpg" alt="Product Image">
+                <div class="product-name">Nike Dunk Panda</div>
+                <div class="price">R950</div>
+                <a class="whatsapp-btn" 
+                href="https://wa.me/27XXXXXXXXX?text=Hi%20I%20want%20to%20order%20the%20Nike%20Dunk%20Panda" 
+                target="_blank">Order on WhatsApp</a>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="product-card">
+                <img src="your-image-3.jpg" alt="Product Image">
+                <div class="product-name">Chanel Coco Dupe</div>
+                <div class="price">R450</div>
+                <a class="whatsapp-btn" 
+                href="https://wa.me/27XXXXXXXXX?text=Hi%20I%20want%20to%20order%20the%20Chanel%20Coco%20Dupe" 
+                target="_blank">Order on WhatsApp</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Luxio Couture — Black & Matte Gold Edition
+    </footer>
+
+</body>
+</html>
